@@ -9,7 +9,8 @@ const year = props.date.getFullYear(); //beware of functions name.
         <div>
             <ExpenseDate date = {props.date} />
             <div>
-                <p>{props.title}</p>
+                <p>{props.title}</p> 
+                <p> </p>
                 <p>{props.amount}</p>
             </div>
         </div>
