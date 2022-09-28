@@ -3,12 +3,11 @@ import ExpenseItem from './ExpenseItem'
 
 function Expenses(props) {
 
-
     return(
         <div className='expenses'>
             <h1>Hi There</h1>
             <p>
-                This is Arun Kumar
+                This is Arun Kumar Chauhan
             </p>
             <ExpenseItem
                 title={props.items[0].title}
